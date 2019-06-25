@@ -5,9 +5,9 @@ var _goto = function _goto(map, feature) {
   console.log(feature.properties.label);
   map.flyTo({
     center: feature.geometry.coordinates,
-    zoom: 17,
-    speed: 0.6,
-    curve: 1
+    zoom: 18 //speed: 0.6,
+    //curve: 1
+
   });
 };
 
